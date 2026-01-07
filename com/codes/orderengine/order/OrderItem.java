@@ -33,7 +33,7 @@ public class OrderItem {
 
     }
 
-    private BigDecimal orderItemTotal(BigDecimal price, int quantity) {
+    public BigDecimal orderItemTotal() {
         return price.multiply(BigDecimal.valueOf(quantity));
     }
 
